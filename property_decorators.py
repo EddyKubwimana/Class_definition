@@ -25,20 +25,5 @@ class Employee:
         name = dis[1].split("@")
         self.sname = name[0]
 
-e1 = Employee('Eddy', 'Kubwimana')
-print(e1.fname)
-e1.fname = "Eric"
-print(e1.fullname)
-e1.sname = "habonimana"
-print(e1.email)
-e1.fullname = "Eddy Ndihokubwayo"
-print(e1.email)
-print(e1.fullname)
-del e1.fullname
-
-e1.email = "steve.niyonkuru@gmail.com"
-print(e1.email)
-print(e1.fname)
-print(e1.fullname)
 
 
